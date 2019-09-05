@@ -17,31 +17,32 @@ activity (factor, max length = 18)
 
 With respect to group (2), a host of features -all denoting either the mean or standard deviation of a certain feature- is included. See the file 'features_info.txt' for more information. All variables are measured on a ratio scale, normlaized and bounded within [-1.1]. Some variables are measured along three dimensions (XYZ), others along one dimension. The variables are listed in the below:
 
-Measurements along three (XYZ) dimensions
+Measurements along three (XYZ) dimensions:
+	mean() + std():
+	
+	tBodyAcc-XYZ
+	tGravityAcc-XYZ
+	tBodyAccJerk-XYZ
+	tBodyGyro-XYZ
+	tBodyGyroJerk-XYZ
 
-- mean() + std():
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
+	mean(), std() + meanFreq():
 
-- mean(), std() + meanFreq()
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
+	fBodyAcc-XYZ
+	fBodyAccJerk-XYZ
+	fBodyGyro-XYZ
 
 Measurements along one dimension:
 
-- mean() + std()
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
+	mean() + std():
+	tBodyAccMag
+	tGravityAccMag
+	tBodyAccJerkMag
+	tBodyGyroMag
+	tBodyGyroJerkMag
 
-- mean() + std() + meanFreq()
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+	mean() + std() + meanFreq():
+	fBodyAccMag
+	fBodyAccJerkMag
+	fBodyGyroMag
+	fBodyGyroJerkMag
