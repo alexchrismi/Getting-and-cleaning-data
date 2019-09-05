@@ -18,8 +18,8 @@ activity (factor, max length = 18)
 With respect to group (2), a host of features -all denoting either the mean or standard deviation of a certain feature- is included. See the file 'features_info.txt' for more information. All variables are measured on a ratio scale, normlaized and bounded within [-1.1]. Some variables are measured along three dimensions (XYZ), others along one dimension. The variables are listed in the below:
 
 Measurements along three (XYZ) dimensions:
+
 	mean() + std():
-	
 	tBodyAcc-XYZ
 	tGravityAcc-XYZ
 	tBodyAccJerk-XYZ
@@ -27,7 +27,6 @@ Measurements along three (XYZ) dimensions:
 	tBodyGyroJerk-XYZ
 
 	mean(), std() + meanFreq():
-
 	fBodyAcc-XYZ
 	fBodyAccJerk-XYZ
 	fBodyGyro-XYZ
